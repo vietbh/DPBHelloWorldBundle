@@ -13,7 +13,7 @@ class VBHHelloWorldBundle extends Bundle
     }
     public function getContainerExtension(): ?ExtensionInterface
     {
-        return new DBPHelloWorldExtension();
+        return new VBHHelloWorldExtension();
     }
     public function load(array $configs, ContainerBuilder $container)
     {

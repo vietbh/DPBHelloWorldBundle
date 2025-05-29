@@ -21,10 +21,10 @@
 ```php
 return [
     // Các bundle khác ...
-    VBH\HelloWorldBundle\DBPHelloWorldBundle::class => ['all' => true],
+    VBH\HelloWorldBundle\VBHHelloWorldBundle::class => ['all' => true],
 ];
-dbp_hello_world_bundle:
-  resource: '@VBHHelloWorldBundle/config/routing/hello_world_routes.xml'
+vbh_hello_world_bundle:
+  resource: '@VBHHelloWorldBundle/config/routing/routing.yaml'
   prefix: /vbh
   
 url: /vbh/hello
