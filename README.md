@@ -23,8 +23,10 @@ return [
     // Các bundle khác ...
     VBH\HelloWorldBundle\VBHHelloWorldBundle::class => ['all' => true],
 ];
+
+/routes/vbh.yaml
 vbh_hello_world_bundle:
-  resource: '@VBHHelloWorldBundle/config/routing/routing.yaml'
+  resource: '@VBHHelloWorldBundle/Resources/config/routing.yaml'
   prefix: /vbh
   
 url: /vbh/hello
