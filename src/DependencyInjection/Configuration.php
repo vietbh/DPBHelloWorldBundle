@@ -1,6 +1,6 @@
 <?php
 
-namespace DBP\HelloWorldBundle\DependencyInjection;
+namespace VBH\HelloWorldBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -9,7 +9,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('dbp_hello_world_bundle');
+        $treeBuilder = new TreeBuilder('vbh_hello_world_bundle');
 
         $rootNode = $treeBuilder->getRootNode();
         $rootNode

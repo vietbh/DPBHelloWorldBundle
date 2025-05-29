@@ -1,13 +1,13 @@
 <?php
 
-namespace DBP\HelloWorldBundle\DependencyInjection;
+namespace VBH\HelloWorldBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class DBPHelloWorldExtension extends Extension
+class VBHHelloWorldExtension extends Extension
 {
     /**
      * @throws \Exception

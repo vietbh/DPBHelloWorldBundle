@@ -1,6 +1,6 @@
-# DPBHelloWorldBundle 🚀
+# VBHHelloWorldBundle 🚀
 
-**DPBHelloWorldBundle** — Bundle Symfony siêu nhẹ, chỉ để hiển thị dòng chữ "Hello" siêu đơn giản! 😎
+**VBHHelloWorldBundle** — Bundle Symfony siêu nhẹ, chỉ để hiển thị dòng chữ "Hello" siêu đơn giản! 😎
 
 ---
 
@@ -14,20 +14,20 @@
 
 ## Cài đặt
 
-1. ( `composer require dbp/hello-world-bundle` có trên Packagist)
+1. ( `composer require vbh/hello-world-bundle` có trên Packagist)
 
 2. Đăng ký bundle trong `config/bundles.php`:
 
 ```php
 return [
     // Các bundle khác ...
-    DBP\HelloWorldBundle\DBPHelloWorldBundle::class => ['all' => true],
+    VBH\HelloWorldBundle\DBPHelloWorldBundle::class => ['all' => true],
 ];
 dbp_hello_world_bundle:
-  resource: '@DBPHelloWorldBundle/config/routing/hello_world_routes.xml'
-  prefix: /dbp
+  resource: '@VBHHelloWorldBundle/config/routing/hello_world_routes.xml'
+  prefix: /vbh
   
-url: /dbp/hello
+url: /vbh/hello
 ```
 Sử dụng
 Chạy server Symfony của bạn và truy cập vào đường dẫn tương ứng trong route để thấy dòng chữ hello vui vẻ!

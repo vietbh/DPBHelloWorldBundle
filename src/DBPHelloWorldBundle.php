@@ -1,11 +1,11 @@
 <?php
-namespace DBP\HelloWorldBundle;
+namespace VBH\HelloWorldBundle;
 
-use DBP\HelloWorldBundle\DependencyInjection\DBPHelloWorldExtension;
+use VBH\HelloWorldBundle\DependencyInjection\VBHHelloWorldExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DBPHelloWorldBundle extends Bundle
+class VBHHelloWorldBundle extends Bundle
 {
     public function getPath(): string
     {

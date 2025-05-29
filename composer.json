@@ -1,5 +1,5 @@
 {
-    "name": "dbp/hello-world-bundle",
+    "name": "vbh/hello-world-bundle",
     "version": "1.0.0",
     "description": "This is the first try create bundle render \"hello world\"",
     "type": "symfony-bundle",
@@ -9,12 +9,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DBP\\HelloWorldBundle\\": "src/"
+            "VBH\\HelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DBP\\HelloWorldBundle\\Tests\\": "tests/"
+            "VBH\\HelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "authors": [
