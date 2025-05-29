@@ -1,0 +1,3 @@
+dbp_hello_world_bundle:
+  logger_level: warning
+  enable_feature: false
